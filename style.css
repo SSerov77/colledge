@@ -7,9 +7,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* HEADER */
+
 .header {
     width: 100%;
     height: 80px;
+    border-bottom: 1px solid #DDDDDD;
+    ;
 }
 
 .header-content {
@@ -51,5 +55,27 @@
     height: 24px;
 }
 
+/* MAIN */
 
+.main {
+    width: 100%;
+}
 
+.main-content {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.main-info {
+    width: 445px;
+    height: 361px;
+    margin-top: 70px;
+}
+
+.main-title {
+    
+}
