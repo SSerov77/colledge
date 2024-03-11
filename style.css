@@ -114,6 +114,97 @@
     transition: .3s;
 }
 
+.frame2 {
+    width: 100%;
+    background-color: #EBEBEB;
+    height: 973px;
+}
+
+.contents-frame2 {
+    margin: 0 auto;
+    width: 1110px;
+    height: 793px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stapes {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.stape {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px #C0C0C0 solid;
+    height: 139px;
+    padding-top: 19px;
+    gap: 30px;
+}
+
+.stape-pic {
+    width: 160px;
+    height: 118px;
+}
+
+.texts-stape {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-stape {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #666666;
+}
+
+.text-stape {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #85859B;
+}
+
+.content-frame2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.text-frame2 {
+    margin-top: 59px;
+    margin-bottom: 60px;
+}
+
+.title-frame2 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #666666;
+
+}
+
+.maximum-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #85859B;
+    margin-top: 20px;
+}
+
+.maximum-text p {
+    margin-bottom: 15px;
+}
+
 .sketchbook-content {
     width: 1100px;
     margin: 0 auto;
