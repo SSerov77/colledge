@@ -11,7 +11,7 @@ body {
     column-gap: 80px;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 2000px;
 }
 
 header {
@@ -47,5 +47,54 @@ header {
     font-size: 24px;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+.main {
+    width: 100%;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.about-me {
+    margin-top: 117px;
+    height: 805px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 40px;
+    font-family: 600;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    width: 300px;
+    height: 100px;
+    background-color: #19B7AC;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
 }
 
