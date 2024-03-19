@@ -6,6 +6,12 @@
     font-family: "Montserrat", sans-serif;
 }
 
+:root {
+    --font-color: #FFFFFF;
+    --bg-color: #19B7AC;
+    --font-text: 
+}
+
 body {
     background: linear-gradient(134deg, #020336 0%, #252c64 37.63%, #4a76ca 90.98%);
     column-gap: 80px;
@@ -25,7 +31,7 @@ header {
     margin: 0 auto;
     width: 1440px;
     height: 100px;
-    background-color: #19B7AC;
+    background-color: var(--bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +58,7 @@ header {
     text-decoration: none;
     font-size: 24px;
     font-weight: 500;
-    color: #FFFFFF;
+    color: var(--font-color);
 }
 
 .nav:hover {
@@ -87,28 +93,28 @@ header {
 .title {
     font-size: 60px;
     font-weight: 700;
-    color: #FFFFFF;
+    color: var(--font-color);
 }
 
 .subtitle {
     font-size: 40px;
     font-family: 600;
-    color: #FFFFFF;
+    color: var(--font-color);
 }
 
 .text {
     font-size: 32px;
     font-weight: 500;
-    color: #FFFFFF;
+    color: var(--font-color);
 }
 
 .main-btn {
     width: 300px;
     height: 100px;
-    background-color: #19B7AC;
+    background-color: var(--bg-color);
     font-size: 40px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: var(--font-color);
     border: none;
     border-radius: 15px;
     cursor: pointer;
@@ -155,7 +161,6 @@ header {
 .name {
     font-size: 40px;
     font-weight: 700;
-    color: #000000;
 }
 
 .prof {
@@ -167,7 +172,6 @@ header {
 .text-comment {
     font-size: 32px;
     font-weight: 500;
-    color: #000000;
 }
 
 /* CATALOG */
@@ -227,7 +231,7 @@ header {
 .product-btn {
     width: 190px;
     height: 57px;
-    background: #16aca3;
+    background: var(--bg-color);
     border: none;
     border-radius: 15px;
     font-weight: 700;
